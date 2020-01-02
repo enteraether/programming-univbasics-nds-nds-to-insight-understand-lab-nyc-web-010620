@@ -15,7 +15,7 @@ def print_first_directors_movie_titles
   i = 0
 
   while i < dir_movies.length do
-    
+    return dir_movies[i][:title]
   end
   binding.pry
 end
