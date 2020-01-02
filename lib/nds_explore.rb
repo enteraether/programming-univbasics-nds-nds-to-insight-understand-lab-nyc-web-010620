@@ -16,7 +16,7 @@ def print_first_directors_movie_titles
 
   while i < dir_movies.length do
       # binding.pry
-    return dir_movies[i][:title]
+    puts dir_movies[i][:title]
   end
   i += 1
 end
