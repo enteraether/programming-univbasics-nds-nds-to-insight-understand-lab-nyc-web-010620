@@ -2,7 +2,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 require 'pp'
 require 'pry'
-# binding.pry
+binding.pry
 # Call the method directors_database to retrieve the NDS
 
 def pretty_print_nds(nds)
@@ -15,7 +15,7 @@ def print_first_directors_movie_titles
   i = 0
 
   while i < dir_movies.length do
-      # binding.pry
+      binding.pry
     puts dir_movies[i][:title]
   end
   i += 1
